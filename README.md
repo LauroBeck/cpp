@@ -1,10 +1,10 @@
-# ?? Bloomberg-Style Market Engine (C++)
+#  Bloomberg-Style Market Engine (C++)
 
 High-performance C++ market analytics engine inspired by institutional terminals.
 
 ---
 
-## ?? Overview
+##  Overview
 
 This project implements a lightweight financial market engine in C++ designed to simulate and analyze:
 
@@ -18,7 +18,7 @@ This project implements a lightweight financial market engine in C++ designed to
 
 ---
 
-## ?? Structure
+##  Structure
 
 .
 +-- bloomberg.cpp
@@ -26,7 +26,7 @@ This project implements a lightweight financial market engine in C++ designed to
 
 ---
 
-## ?? Build & Run
+##  Build & Run
 
 Compile:
 g++ bloomberg.cpp -o bloomberg
@@ -36,7 +36,7 @@ Run:
 
 ---
 
-## ?? Data Model
+##  Data Model
 
 struct Row {
     double tech, capex, oil;
@@ -46,7 +46,7 @@ struct Row {
 
 ---
 
-## ?? Output Example
+##  Output Example
 
 GLOBAL MACRO TERMINAL
 
@@ -60,7 +60,7 @@ SIGNAL: RISK ON
 
 ---
 
-## ? Philosophy
+##  Philosophy
 
 - Fast (C++)
 - Minimal
@@ -69,7 +69,7 @@ SIGNAL: RISK ON
 
 ---
 
-## ?? Roadmap
+##  Roadmap
 
 - Real-time data
 - API integration
@@ -79,12 +79,12 @@ SIGNAL: RISK ON
 
 ---
 
-## ?? Author
+## Author
 
 Lauro Beck
 
 ---
 
-## ?? License
+##  License
 
 MIT
